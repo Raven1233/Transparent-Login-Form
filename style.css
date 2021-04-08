@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Roboto+Slab:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Quicksand:wght@500&family=Roboto+Slab:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(pic6.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+   
+    color: white;
+    position: absolute;
+    top: 22%;
+    left:38%;
+}
+
+.container h1{
+    font-family: 'Kiwi Maru', serif;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid palegreen;
+    margin-bottom: 25px;
+    padding: 13px 20px;
+}
+.box{
+    width: 100%;
+    margin: 22px 0px;
+    border-bottom: 2px solid palegreen;
+}
+.box input{
+    font-family: 'Roboto Slab', serif;
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.box i{
+  
+    width: 25px;
+    text-align: center; 
+}
+.btn{
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    margin: 12px 0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid palegreen;
+    font-size: px;
+    background: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover{
+    background:palegreen;
+    color: tan
+}
